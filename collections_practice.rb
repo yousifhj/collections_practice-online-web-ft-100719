@@ -40,5 +40,10 @@ end
 
 #8
 def sum_array(array)
-  array.each { |a| sum+=a }
+  array.inject(0, :+)
+end
+
+#9
+def add_s(array)
+  
 end
