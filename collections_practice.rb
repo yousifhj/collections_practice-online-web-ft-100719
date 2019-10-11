@@ -12,7 +12,5 @@ end
 
 def sort_array_char_count(array)
   arr.sort{|x, y| x.length <=> y.length}
-   array.sort do |a, b|
-    a <=> b 
   end
 end
