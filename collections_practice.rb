@@ -21,4 +21,5 @@ end
 
 def reverse_elements(array)
   array.reverse
+  array
 end
