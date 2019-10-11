@@ -20,6 +20,5 @@ def swap_elements(array)
 end
 
 def reverse_elements(array)
-  array.reverse
-  array
+  array.split(",").reverse.join(",")
 end
