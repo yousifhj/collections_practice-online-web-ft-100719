@@ -30,5 +30,5 @@ end
 
 #6
 def kesha_maker(array)
-  array.each {|i| 
+  array.each {|i| i[2]
 end
